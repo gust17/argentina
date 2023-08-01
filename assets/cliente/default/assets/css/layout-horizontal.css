@@ -1,0 +1,278 @@
+/**======================================================================
+=========================================================================
+Template Name: Nextro - Most Complete Bootstrap Admin Template
+Author: Phoenixcoded
+Support: support@phoenixcoded.net
+File: style.css
+=========================================================================
+=================================================================================== */
+.container{
+    max-width: 1140px !important;
+}
+.pc-horizontal .pc-header {
+    left: 0;
+    z-index: 1026;
+}
+
+.pc-horizontal .pc-header.pc-mob-header {
+    z-index: 1027;
+}
+
+@media (min-width: 992px) {
+    .pc-horizontal .pc-header .m-header {
+        margin-right: 20px;
+    }
+}
+
+.pc-horizontal .pc-header .header-wrapper {
+    padding: 0;
+}
+
+.pc-horizontal .pc-header .header-wrapper .m-header {
+    display: inline-flex;
+    align-items: center;
+}
+
+.pc-horizontal .page-header {
+    background: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: none;
+    /* padding: 13px 0; */
+}
+
+.pc-horizontal .page-header + .row {
+    margin-top: 30px;
+}
+
+.pc-horizontal .pc-container {
+    margin-left: 0;
+    top: calc(70px + 60px);
+    min-height: calc(100vh - 70px - 60px);
+}
+
+.pc-horizontal .pc-container .pcoded-content {
+    padding-top: 0;
+}
+
+.pc-horizontal .pc-container .pcoded-content > .row:first-child {
+    padding-top: 30px;
+}
+
+.pc-horizontal .pc-container .pcoded-content .page-header {
+    /* padding-top: 30px; */
+}
+
+.pc-horizontal .pc-container .pcoded-content .page-header + .row {
+    margin-top: 10px;
+}
+
+.pc-horizontal.layout-topbar .pc-container {
+    top: 70px;
+}
+
+.pc-horizontal.layout-topbar .pc-container .page-header {
+    padding-top: 30px;
+}
+
+.pc-horizontal.layout-topbar .pc-container .page-header + .row {
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+.pc-horizontal .topbar {
+    background: var(--menu);
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1025;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+}
+
+.pc-horizontal .topbar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.pc-horizontal .topbar .pc-micon {
+    margin-right: 10px;
+}
+
+.pc-horizontal .topbar .pc-micon > svg {
+    width: 20px;
+    height: 20px;
+}
+
+.pc-horizontal .topbar .pc-link {
+    display: block;
+    padding: 20px 10px;
+    color: var(--menu-text);
+    font-size: 14px;
+    font-family: var(--font-family-serif);
+}
+
+.pc-horizontal .topbar .pc-link:active, .pc-horizontal .topbar .pc-link:focus, .pc-horizontal .topbar .pc-link:hover {
+    text-decoration: none;
+    color: var(--menu-text-hover);
+}
+
+.pc-horizontal .topbar .pc-link.dropdown-toggle:after {
+    display: none;
+}
+
+.pc-horizontal .topbar .pc-item {
+    display: inline-block;
+}
+
+.pc-horizontal .topbar .pc-arrow {
+    margin-left: 8px;
+    float: right;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+
+.pc-horizontal .topbar .pc-arrow > svg {
+    width: 18px;
+    height: 18px;
+}
+
+.pc-horizontal .topbar .pc-submenu {
+    position: absolute;
+    background: #fff;
+    padding: 15px 0;
+    min-width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 4px 24px 0 rgba(62, 57, 107, 0.18);
+}
+
+.pc-horizontal .topbar .pc-submenu .pc-item {
+    display: block;
+    position: relative;
+}
+
+.pc-horizontal .topbar .pc-submenu .pc-link {
+    color: #1c232f;
+    padding: 8px 10px 8px 20px;
+}
+
+.pc-horizontal .topbar .pc-submenu .pc-link:active, .pc-horizontal .topbar .pc-submenu .pc-link:focus, .pc-horizontal .topbar .pc-submenu .pc-link:hover {
+    color: var(--primary);
+    /* background: #e8e7fc; */
+}
+
+.pc-horizontal .topbar .pc-submenu .pc-submenu {
+    left: 100%;
+    top: -15px;
+}
+
+.pc-horizontal .topbar .pc-hasmenu:hover > .pc-link .pc-arrow {
+    transform: rotate(90deg);
+}
+
+.pc-horizontal .topbar .pc-navbar > .pc-item:first-child > .pc-link {
+    padding-left: 0;
+}
+
+.pc-horizontal .pct-customizer {
+    display: none;
+}
+
+@media (min-width: 1025px) {
+    .pc-horizontal .topbar .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+
+    .pc-horizontal .pc-container .pcoded-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pc-horizontal .pc-container .page-header + .row {
+        padding-top: 0;
+    }
+
+    .pc-horizontal .topbar .pc-navbar > .pc-hasmenu.dropdown:hover > .pc-link.dropdown-toggle {
+        z-index: 1001;
+        color: #1c232f;
+        position: relative;
+    }
+
+    .pc-horizontal .topbar .pc-navbar > .pc-hasmenu.dropdown:hover > .dropdown-menu {
+        padding-top: 60px;
+        top: 0;
+        left: -10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pc-horizontal .topbar {
+        display: none;
+        height: auto;
+    }
+
+    .pc-horizontal .topbar .pc-item {
+        display: block;
+    }
+
+    .pc-horizontal .topbar .pc-navbar > .pc-item .pc-link {
+        padding: 12px 10px;
+    }
+
+    .pc-horizontal .topbar .pc-navbar > .pc-item:first-child > .pc-link {
+        padding-left: 10px;
+    }
+
+    .pc-horizontal .topbar .pc-submenu {
+        position: relative;
+        width: calc(100% - 30px);
+        padding-top: 0;
+        float: none;
+        padding-bottom: 0;
+        background: transparent;
+        left: 30px;
+    }
+
+    .pc-horizontal .topbar .pc-submenu .pc-submenu {
+        left: 20px;
+        top: 0;
+    }
+
+    .pc-horizontal .topbar .pc-submenu .pc-link {
+        color: #b5bdca;
+    }
+
+    .pc-horizontal .topbar.mob-sidebar-active {
+        display: block;
+    }
+
+    .pc-horizontal .topbar > .container {
+        position: relative;
+        z-index: 5;
+    }
+
+    .pc-horizontal .pc-header.mob-header-active .container {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pc-horizontal .pc-header.mob-header-active .container > .header-wrapper {
+        padding-left: 15px;
+        padding-right: -15px;
+    }
+
+    .pc-horizontal .pc-header.mob-header-active .container > .header-wrapper .m-header {
+        display: none;
+    }
+
+    .pc-horizontal .pc-container {
+        top: 70px;
+    }
+}

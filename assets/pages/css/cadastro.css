@@ -1,0 +1,32 @@
+
+#cadastrarme {
+    text-align: center;
+    /* position: relative; */
+    margin-top: 20px
+}
+
+
+#cadastrarme fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+#cadastrarme fieldset:not(:first-of-type) {
+    display: none
+}
+
+#cadastrarme fieldset .form-card {
+    text-align: left;
+    color: #9E9E9E
+}
+
+#cadastrarme .action-button:hover,
+#cadastrarme .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue
+}

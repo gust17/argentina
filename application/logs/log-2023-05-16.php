@@ -1,0 +1,133 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-05-16 12:07:27 --> Could not find the specified $config['composer_autoload'] path: /app/vendor/autoload.php
+ERROR - 2023-05-16 12:07:27 --> Query error: Table 'ebx.configuracoes_rotas' doesn't exist - Invalid query: SELECT *
+FROM `configuracoes_rotas`
+ERROR - 2023-05-16 12:07:27 --> Severity: error --> Exception: Class 'CI_Controller' not found /app/system/core/CodeIgniter.php 354
+ERROR - 2023-05-16 12:08:29 --> Could not find the specified $config['composer_autoload'] path: /app/vendor/autoload.php
+ERROR - 2023-05-16 12:08:29 --> Severity: error --> Exception: Class 'Predis\Client' not found /app/application/libraries/Rediscache.php 69
+ERROR - 2023-05-16 12:08:31 --> Could not find the specified $config['composer_autoload'] path: /app/vendor/autoload.php
+ERROR - 2023-05-16 12:08:31 --> Severity: error --> Exception: Class 'Predis\Client' not found /app/application/libraries/Rediscache.php 69
+ERROR - 2023-05-16 12:09:06 --> Severity: error --> Exception: Connection refused [tcp://127.0.0.1:6379] /app/vendor/predis/predis/src/Connection/AbstractConnection.php 155
+ERROR - 2023-05-16 12:09:07 --> Severity: error --> Exception: Connection refused [tcp://127.0.0.1:6379] /app/vendor/predis/predis/src/Connection/AbstractConnection.php 155
+ERROR - 2023-05-16 17:59:21 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:16:58 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:17:37 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:18:30 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:18:59 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:18:59 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:19:00 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:27 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:27 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:28 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:31 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:32 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:32 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:49 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:49 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:50 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:50 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:52 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:27:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:28:19 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:28:20 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:28:20 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:28:22 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:28:23 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:28:24 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:04 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:04 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:05 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:05 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:08 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:08 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:09 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:41 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:42 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:29:42 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:30:27 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:30:28 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:30:29 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:30:58 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:30:58 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:30:59 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:31:00 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:31:42 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:31:43 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:31:44 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:31:57 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:31:58 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:31:58 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:34:47 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:34:47 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:34:48 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:34:51 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:34:52 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:34:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:35:03 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:35:04 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:35:04 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:35:21 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:35:23 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:35:23 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:36:38 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:36:39 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:36:40 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:02 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:03 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:04 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:17 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:18 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:18 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:37 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:37 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:38 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:52 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:37:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:40:36 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:40:37 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:40:37 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:40:56 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:40:56 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:40:56 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:43:55 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:43:55 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:43:56 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:47:39 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:47:40 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:47:40 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:47:52 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:47:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:47:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:30 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:31 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:34 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:34 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:43 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:48:53 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:50:58 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:50:59 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:50:59 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:51:43 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:51:44 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:51:45 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:52:11 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:52:12 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:52:13 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:52:21 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:52:21 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:52:22 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:53:02 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:53:03 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:53:03 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:53:19 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:53:20 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:53:20 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:55:46 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:55:46 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:55:47 --> 404 Page Not Found: /index
+ERROR - 2023-05-16 18:55:47 --> 404 Page Not Found: /index

@@ -1,0 +1,33 @@
+{
+
+	"name": "mmn/sistema-mmn-2021",
+	"description": "Sistema de Marketing Multinivel",
+	"version": "1.0.0",
+	"type": "project",
+	"keywords": [
+		"marketing multinivel",
+		"mmn",
+		"marketing de rede",
+		"vendas diretas"
+	],
+	"license": "MIT",
+	"authors":[{
+		"name": "Alisson Acioli",
+		"email": "alissonacioli@hotmail.com",
+		"role": "Developer"
+	}],
+	"support": {
+		"email": "alissonacioli@hotmail.com"
+	},
+	"require": {
+		"php": ">=7.3",
+		"phpmailer/phpmailer": "^6.0",
+		"mpdf/qrcode": "^1.1",
+		"authy/php": "^3.0",
+		"twilio/sdk": "^6.25",
+		"daniel-zahariev/php-aws-ses": "^0.9.5",
+		"aws/aws-sdk-php": "^3.208",
+		"predis/predis": "^1.1",
+		"vlucas/phpdotenv": "^5.4"
+	}
+}

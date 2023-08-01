@@ -1,0 +1,12 @@
+_src/*
+vendor/*
+node_modules/*
+banco_de_dados.sql
+.DS_Store
+node_modules
+keys
+assets/pages/js/dados.js
+composer.lock
+package-lock.json
+.env
+../db/*

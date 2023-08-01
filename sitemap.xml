@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://cuenta.wcttrade.com/dashboard</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/planos/adquirir</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/meusplanos/ativos</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/meusplanos/expirados</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/rede/indicados/ativos</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/rede/indicados/pendentes</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/rede/indicados/unilevel</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/rede/binario</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/rede/relatorio</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/faturas/lista</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/registros</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/registros/rendimento</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/registros/indicacao</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/meussaques</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/saque/rendimento</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/saque/rede</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/conta/dados</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/conta/senha</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/recebimento/bancaria</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/recebimento/bitcoin</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/recebimento/bankon</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/recebimento/newpay</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/recebimento/pix</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/notificacoes/visualizar</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/entrar</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/senha</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cuenta.wcttrade.com/cadastrar</loc>
+  <lastmod>2022-01-17T19:10:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

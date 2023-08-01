@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /vendor/
+Disallow: /system/
+Sitemap: https://cuenta.wcttrade.com/sitemap.xml
