@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => getenv('DB_HOST') ?? 'sectorinstancedatabase.cjdospozk6ko.us-east-1.rds.amazonaws.com',
-	'username' => getenv('DB_USER') ?? 'sectoruserdb',
-	'password' => getenv('DB_PASS') ?? 'xxljBeljTPC3SRQTf8WwMt5HVb6ALvbF',
-	'database' => getenv('DB_NAME') ?? 'sectordb',
-	'dbdriver' => getenv('DB_DRIVER') ?? 'mysqli',
+    'hostname' =>  '24.199.99.137',
+    'username' =>  'gus17',
+    'password' =>  '36110312',
+    'database' =>  'wct',
+    'dbdriver' =>  'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => getenv('DB_DEBUG') ?? false,
