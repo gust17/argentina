@@ -37,7 +37,7 @@ $config['master_key'] = 'abc123';
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = getenv('BASE_URL') ?? 'https://ebxinvest.com/';
+$config['base_url'] = 'http://cuenta.wctbussines.com';
 
 /*
 |--------------------------------------------------------------------------
@@ -90,7 +90,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']    = 'spanish';
+$config['language']    = 'english';
 
 /*
 |--------------------------------------------------------------------------

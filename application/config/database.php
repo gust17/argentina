@@ -75,11 +75,19 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
+<<<<<<< HEAD
     'hostname' =>  '24.199.99.137',
     'username' =>  'gus17',
     'password' =>  '36110312',
     'database' =>  'wct',
     'dbdriver' =>  'mysqli',
+=======
+	'hostname' => 'localhost',
+	'username' => 'wtc',
+	'password' => '36110312',
+	'database' => 'wct',
+	'dbdriver' => 'mysqli',
+>>>>>>> fdc571f (alteraçao)
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => getenv('DB_DEBUG') ?? false,

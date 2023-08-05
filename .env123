@@ -1,0 +1,17 @@
+BASE_URL="https://cuenta.wcttrade.com/"
+
+AWS_KEY="AKIAWFHBCSMUSZ5W3BUR"
+AWS_SECRET="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"
+AWS_REGION="us-east-1"
+
+DB_HOST="localhost"
+DB_USER="wct"
+DB_PASS="36110312"
+DB_DRIVER="mysqli"
+DB_DEBUG="true"
+DB_PREFIX=""
+
+REDIS_HOST="redis-11169.c261.us-east-1-4.ec2.cloud.redislabs.com"
+REDIS_PORT="11169"
+REDIS_USER="default"
+REDIS_PASS="xxljBeljTPC3SRQTf8WwMt5HVb6ALvbF"
