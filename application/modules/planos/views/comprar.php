@@ -24,11 +24,11 @@
                         <div class="row">
                             <div class="col-6">
                                 <small><?php echo $this->lang->line('plan_investimento'); ?></small>
-                                <h4 class="text-secondary">R$ <?php echo number_format($plano->valor, 2, ',', '.'); ?></h4>
+                                <h4 class="text-secondary">S/. <?php echo number_format($plano->valor, 2, ',', '.'); ?></h4>
                             </div>
                             <div class="col-6">
                                 <small><?php echo $this->lang->line('plan_retorno'); ?></small>
-                                <h4 class="text-secondary">R$ <?php echo number_format($plano->valor, 2, ',', '.'); ?></h4>
+                                <h4 class="text-secondary">S/. <?php echo number_format($plano->valor, 2, ',', '.'); ?></h4>
                             </div>
                             <div class="col-12">
                                 <small><?php echo $this->lang->line('plan_prazo'); ?></small>
