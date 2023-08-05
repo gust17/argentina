@@ -12,7 +12,7 @@ class LanguageLoader{
         if ($siteLang) {
             $ci->lang->load('website', $siteLang);
         } else {
-            $ci->lang->load('website','portuguese-br');
+            $ci->lang->load('website','spanish');
         }
     }
 }
