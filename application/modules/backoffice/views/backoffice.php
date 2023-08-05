@@ -39,19 +39,19 @@
                         <div class="col-sm-12 col-lg-4">
                             <small class=""><?php echo $this->lang->line('total'); ?></small>
                             <h2 class="text-secondary">
-                                <b>R$ <?php echo number_format($saldoRendimento, 2, ',', '.'); ?></b>
+                                <b>S/. <?php echo number_format($saldoRendimento, 2, ',', '.'); ?></b>
                             </h2>
                         </div>
                         <div class="col-sm-12 col-lg-4">
                             <small class=""><?php echo $this->lang->line('entradas'); ?></small>
                             <h2 class="text-secondary">
-                                <b>R$ <?php echo number_format($this->SystemModel->BalancoSaldo(1, 1), 2, ',', '.'); ?></b>
+                                <b>S/. <?php echo number_format($this->SystemModel->BalancoSaldo(1, 1), 2, ',', '.'); ?></b>
                             </h2>
                         </div>
                         <div class="col-sm-12 col-lg-4">
                             <small class=""><?php echo $this->lang->line('saidas'); ?></small>
                             <h2 class="text-secondary">
-                                <b>R$ <?php echo number_format($this->SystemModel->BalancoSaldo(2, 1), 2, ',', '.'); ?></b>
+                                <b>S/. <?php echo number_format($this->SystemModel->BalancoSaldo(2, 1), 2, ',', '.'); ?></b>
                             </h2>
                         </div>
                     </div>
@@ -65,19 +65,19 @@
                         <div class="col-sm-12 col-lg-4">
                             <small class=""><?php echo $this->lang->line('total'); ?></small>
                             <h2 class="text-secondary">
-                                <b>R$ <?php echo number_format($saldoRede, 2, ',', '.'); ?></b>
+                                <b>S/. <?php echo number_format($saldoRede, 2, ',', '.'); ?></b>
                             </h2>
                         </div>
                         <div class="col-sm-12 col-lg-4">
                             <small class=""><?php echo $this->lang->line('entradas'); ?></small>
                             <h2 class="text-secondary">
-                                <b>R$ <?php echo number_format($this->SystemModel->BalancoSaldo(1, 2), 2, ',', '.'); ?></b>
+                                <b>S/. <?php echo number_format($this->SystemModel->BalancoSaldo(1, 2), 2, ',', '.'); ?></b>
                             </h2>
                         </div>
                         <div class="col-sm-12 col-lg-4">
                             <small class=""><?php echo $this->lang->line('saidas'); ?></small>
                             <h2 class="text-secondary">
-                                <b>R$ <?php echo number_format($this->SystemModel->BalancoSaldo(2, 2), 2, ',', '.'); ?></b>
+                                <b>S/. <?php echo number_format($this->SystemModel->BalancoSaldo(2, 2), 2, ',', '.'); ?></b>
                             </h2>
                         </div>
                     </div>
