@@ -3,7 +3,7 @@ $rotas = MinhasRotas();
 $userName = UserInfo('nome');
 ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="es">
 
 <head>
 	<title><?php echo $nome_pagina; ?> - <?php echo NOME_SITE; ?></title>
