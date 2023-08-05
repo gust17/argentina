@@ -249,15 +249,15 @@ $userName = UserInfo('nome');
 				<ul class="list-unstyled">
 					<li class="dropdown pc-h-item">
 						<a class="pc-head-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-							<img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt="">
-							<!-- <img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt=""> -->
+							<img src="<?php echo base_url('assets/pages/img/flags/portuguese-br.png'); ?>" alt="">
+							<!-- <img src="<?php echo base_url('assets/pages/img/flags/' . $this->session->userdata('site_lang') . '.png'); ?>" alt=""> -->
 						</a>
 						<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
-							<a href="<?php echo base_url('lang/switch'); ?>?lang=spanish" class="dropdown-item" onclick="gtag('event','link_language_change_br', { 'event_category':'click', 'event_label':'<?php echo $userName; ?>' })">
+							<a href="<?php echo base_url('lang/switch'); ?>?lang=spanish" class="dropdown-item" onclick="gtag('event','link_language_change_spa', { 'event_category':'click', 'event_label':'<?php echo $userName; ?>' })">
 								<img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt=""> Spanish
 							</a>
 							<a href="<?php echo base_url('lang/switch'); ?>?lang=portuguese-br" class="dropdown-item" onclick="gtag('event','link_language_change_br', { 'event_category':'click', 'event_label':'<?php echo $userName; ?>' })">
-								<img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt=""> Spanish
+								<img src="<?php echo base_url('assets/pages/img/flags/portuguese-br.png'); ?>" alt=""> Português - BR
 							</a>
 						</div>
 					</li>
@@ -265,7 +265,6 @@ $userName = UserInfo('nome');
 						<?php
 						if (UserInfo('is_admin') == 1) {
 						?>
-
 							<form action="<?php echo base_url($rotas->admin_login); ?>" method="post" target="_blank">
 								<button class="btn btn-sm btn-outline-light text-uppercase" type="submit" name="submitAdmin" value="Logar no admin">
 									<small>PAINEL</small>
