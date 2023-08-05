@@ -297,7 +297,14 @@
                                     if(!is_null($usuario->pix) && !empty($usuario->pix) && $usuario->pix != '{}'){
                                         $pix = json_decode($usuario->pix);
 
-                                        echo $pix->pix.' ('.BancoID($pix->banco).')';
+                                        ?>
+                                        Nome: <?= $pix->nombre ?> <br>
+                                        DNI: <?= $pix->dni ?> <br>
+                                        Conta: <?= $pix->cuenta ?> <br>
+                                        CCI: <?= $pix->cci ?> <br>
+
+                                        <?php
+
                                     }else{
                                         echo 'Não cadastrada';
                                     }

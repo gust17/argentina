@@ -289,28 +289,46 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Chave Pix</td>
+                                        <td>Conta Peru</td>
                                         <td>
                                             <?php
                                             $pix = $usuario->pix;
+
                                             if(!is_null($pix) && !empty($pix) && $pix != '{}'){
+
                                                 $pix = json_decode($pix);
-                                                $pix = $pix->pix;
+
+
                                             }else{
                                                 $pix = '';
                                             }
-                                            ?>
-                                            <input type="text" name="pix" class="form-control mb-2" value="<?php echo $pix;?>" />
-                                            <select name="pix_banco" class="form-control" required>
-                                            <?php
-                                            foreach(ListaBancos() as $codigo=>$banco){
 
-                                                $selected = (isset($pix['banco']) && $pix['banco'] == $codigo) ? 'selected' : '';
-
-                                                echo '<option value="'.$codigo.'" '.$selected.'>'.$codigo.' - '.$banco.'</option>';
-                                            }
                                             ?>
-                                        </select>
+
+                                            <div class="row">
+                                                <label class="col-md-3">
+                                                    Nombre
+                                                </label>
+                                                <input type="text" name="nombre" class="form-control mb-2" value="<?php echo (isset($pix->nombre)) ? $pix->nombre : ''; ?>" />
+                                                <label class="col-md-3">
+                                                    DNI
+                                                </label>
+                                                <input type="text" name="dni" class="form-control mb-2" value="<?php echo (isset($pix->dni)) ? $pix->dni : ''; ?>" />
+                                                <label class="col-md-3">
+                                                    Cuenta
+                                                </label>
+                                                <input type="text" name="cuenta" class="form-control mb-2" value="<?php echo (isset($pix->cuenta)) ? $pix->cuenta : ''; ?>" />
+                                                <label class="col-md-3">
+                                                    CCI
+                                                </label>
+                                                <input type="text" name="cci" class="form-control mb-2" value="<?php echo (isset($pix->cci)) ? $pix->cci : ''; ?>" />
+                                            </div>
+
+
+
+
+
+
                                         </td>
                                     </tr>
                                 </table>
