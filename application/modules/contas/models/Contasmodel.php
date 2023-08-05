@@ -66,12 +66,18 @@ class Contasmodel extends CI_Model
     public function AtualizarPix()
     {
 
-        $pix = $this->input->post('pix', true);
+
+        $nombre = $this->input->post('nombre', true);
+        $cuenta = $this->input->post('cuenta', true);
+        $dni = $this->input->post('dni', true);
         $tipo = $this->input->post('tipo', true);
+        $cci = $this->input->post('cci', true);
 
         $pixInJson = json_encode(array(
-            'pix' => $pix,
-            'tipo' => $tipo
+            'cuenta' => $cuenta,
+            'nombre' => $nombre,
+            'dni' => $dni,
+            'cci' => $cci
         ));
 
         $this->db->where('id', $this->userid);

@@ -1,4 +1,5 @@
 <?php
+
 class Cronmodel extends CI_Model
 {
 
@@ -143,7 +144,7 @@ class Cronmodel extends CI_Model
 
                 $record = RegisterExtractItem(
                     $row->id_usuario,
-                    'Pagamento da bonificação diária do plano ' . $nome_plano,
+                    'Pago del bono diario del plan ' . $nome_plano,
                     $valuePay,
                     1,
                     1,
@@ -174,8 +175,11 @@ class Cronmodel extends CI_Model
                         'data_expiracao' => date('Y-m-d H:i:s')
                     ));
 
-                    CreateNotification($row->id_usuario, 'Ahhh, que pena! Seu plano #' . $row->id . ' acabou de expirar. Continue ganhando com a ' . NOME_SITE . ', faça um novo aporte agora mesmo!');
-                    CreateLog($row->id_usuario, 'O plano #' . $row->id . ' acabou de expirar.');
+                    CreateNotification($row->id_usuario, '¡Ahhh, qué lástima! tu plan #' . $row->id . ' acaba de expirar. seguir ganando con ' . NOME_SITE . ', 
+hacer una nueva contribución ahora mismo!');
+                    CreateLog($row->id_usuario, '
+El plano #' . $row->id . ' 
+acaba de expirar.');
                 }
 
                 $payments++;
@@ -240,7 +244,6 @@ class Cronmodel extends CI_Model
 
                             CreateNotification($row->id, 'Parabéns, você acabou de subir para o level ' . $level . ', agora poderá aproveitar mais benefícios exclusivos para seu nível!');
                             CreateLog($row->id, 'O usuário subiu para o level ' . $level);
-
 
 
                             $quantity++;
@@ -363,9 +366,6 @@ class Cronmodel extends CI_Model
     {
 
 
-
-
-
         $dados = [];
         $usuariosGanhadores = [];
 
@@ -383,7 +383,6 @@ class Cronmodel extends CI_Model
                     $dados[$result->id_usuario]['score'] = $result->score;
                 }
             }
-
 
 
             if (!empty($dados)) {
@@ -404,7 +403,6 @@ class Cronmodel extends CI_Model
                     $this->db->update('usuarios_cadastros', array(
                         'score' => ($dadosUser['score'] + $addScore)
                     ));
-
 
 
                     CreateNotification($idUser, 'Parabéns, seu score acaba de subir mais ' . $addScore . ' pontos pela frequência que você teve em logar em seu backoffice. Continue acessando todos os dias seu backoffice para ganhar mais pontos.');
@@ -439,9 +437,6 @@ class Cronmodel extends CI_Model
 
     public function CheckCLicksLink()
     {
-
-
-
 
 
         $usuariosGanhadores = [];
@@ -491,9 +486,6 @@ class Cronmodel extends CI_Model
 
     public function CheckBuyPlan()
     {
-
-
-
 
 
         $usuariosGanhadores = [];

@@ -95,6 +95,8 @@ class Contas extends MY_Controller {
 
         CheckInitializeRoutes(__FUNCTION__, __CLASS__);
 
+
+        //var_dump('aqui');
         $data['nome_pagina'] = $this->lang->line('con_pix_titulo');
 
         if($this->input->post('submit')){

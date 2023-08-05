@@ -8,23 +8,29 @@
             <?php if (isset($message)) echo $message; ?>
 
             <form action="" method="post">
+
                 <div class="form-group">
-                    <label><?php echo $this->lang->line('con_pix_chave'); ?></label>
-                    <input type="text" class="form-control" name="pix" value="<?php echo (isset($pix['pix'])) ? $pix['pix'] : ''; ?>" placeholder="<?php echo $this->lang->line('con_pix_chave_informe'); ?>" required>
+                    <label>NOMBRE</label>
+                    <input type="text" class="form-control" name="nombre" value="<?php echo (isset($pix['nombre'])) ? $pix['nombre'] : ''; ?>" placeholder="<?php echo $this->lang->line('dni'); ?>" required>
                 </div>
                 <div class="form-group">
-                    <label><?php echo $this->lang->line('saq_form_tipo_chave_pix'); ?></label>
-                    <select name="tipo" class="form-control" required>
-                        <?php
-                        foreach (ListaTiposChaves() as $enum => $nome) {
-
-                            $selected = (isset($pix['tipo']) && $pix['tipo'] == $enum) ? 'selected' : '';
-
-                            echo '<option value="' . $enum . '" ' . $selected . '>' . $nome . '</option>';
-                        }
-                        ?>
-                    </select>
+                    <label>DNI</label>
+                    <input type="text" class="form-control" name="dni" value="<?php echo (isset($pix['dni'])) ? $pix['dni'] : ''; ?>" placeholder="<?php echo $this->lang->line('dni'); ?>" required>
                 </div>
+
+                <div class="form-group">
+                    <label>CUENTA</label>
+                    <input type="text" class="form-control" name="cuenta" value="<?php echo (isset($pix['cuenta'])) ? $pix['cuenta'] : ''; ?>" placeholder="<?php echo $this->lang->line('dni'); ?>" required>
+                </div>
+                <div class="form-group">
+                    <label>CCI</label>
+                    <input type="text" class="form-control" name="cci" value="<?php echo (isset($pix['cci'])) ? $pix['cci'] : ''; ?>" placeholder="<?php echo $this->lang->line('dni'); ?>" required>
+                </div>
+
+
+
+
+
                 <button type="submit" name="submit" value="Atualizar" class="btn btn-secondary"><?php echo $this->lang->line('con_pix_button'); ?></button>
                 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
             </form>

@@ -202,7 +202,7 @@ $userName = UserInfo('nome');
 										<div class="dropdown-menu" aria-labelledby="menu_perfil">
 											<a class="dropdown-item" href="<?php echo base_url($rotas->dados_perfil); ?>"> <?php echo $this->lang->line('menu_perfil_dados'); ?></a>
 											<a class="dropdown-item" href="<?php echo base_url($rotas->dados_senha); ?>"> <?php echo $this->lang->line('menu_perfil_senha'); ?></a>
-											<a class="dropdown-item" href="<?php echo base_url($rotas->contas_pix); ?>"> <?php echo $this->lang->line('menu_contas_pix'); ?></a>
+											<a class="dropdown-item" href="<?php echo base_url($rotas->contas_pix); ?>"> Mi cuenta</a>
 										</div>
 									</li>
 									<!-- .dropdown -->
@@ -248,18 +248,7 @@ $userName = UserInfo('nome');
 			<div class="text-right ">
 				<ul class="list-unstyled">
 					<li class="dropdown pc-h-item">
-						<a class="pc-head-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-							<img src="<?php echo base_url('assets/pages/img/flags/portuguese-br.png'); ?>" alt="">
-							<!-- <img src="<?php echo base_url('assets/pages/img/flags/' . $this->session->userdata('site_lang') . '.png'); ?>" alt=""> -->
-						</a>
-						<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
-							<a href="<?php echo base_url('lang/switch'); ?>?lang=spanish" class="dropdown-item" onclick="gtag('event','link_language_change_spa', { 'event_category':'click', 'event_label':'<?php echo $userName; ?>' })">
-								<img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt=""> Spanish
-							</a>
-							<a href="<?php echo base_url('lang/switch'); ?>?lang=portuguese-br" class="dropdown-item" onclick="gtag('event','link_language_change_br', { 'event_category':'click', 'event_label':'<?php echo $userName; ?>' })">
-								<img src="<?php echo base_url('assets/pages/img/flags/portuguese-br.png'); ?>" alt=""> Português - BR
-							</a>
-						</div>
+
 					</li>
 					<li>
 						<?php
@@ -301,20 +290,7 @@ $userName = UserInfo('nome');
 				</a>
 				<div class="ml-auto ">
 					<ul class="list-unstyled">
-						<li class="dropdown pc-h-item">
-							<a class="pc-head-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-								<img src="<?php echo base_url('assets/pages/img/flags/' . $this->session->userdata('site_lang') . '.png'); ?>" alt="">
-							</a>
-							<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
-								<a href="<?php echo base_url('lang/switch'); ?>?lang=spanish" class="dropdown-item">
-									<img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt=""> Spanish
-								</a>
-								<a href="<?php echo base_url('lang/switch'); ?>?lang=portuguese-br" class="dropdown-item">
-									<img src="<?php echo base_url('assets/pages/img/flags/portuguese-br.png'); ?>" alt=""> Português - BR
-								</a>
 
-							</div>
-						</li>
 						<li class="pc-h-item">
 							<a class="pc-head-link mr-0 notificacaoTour" href="<?php echo base_url($rotas->notificacoes); ?>">
 								<img src="<?php echo base_url('assets/cliente/default/assets/images/menu-icons/bell.svg'); ?>" width="24" height="24" alt="" class="">

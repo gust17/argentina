@@ -69,7 +69,7 @@ class Backoffice extends MY_Controller {
         $data['rss'] = $this->Backoffice->RSS();
         $data['investimentosDisponiveis'] = $this->Backoffice->InvestimentosDisponiveis();
         $data['levels'] = $this->SystemModel->LeveisDisponiveis();
-        $data['flag_investing'] = $this->session->userdata('flag_investing') ?? 'br';
+        $data['flag_investing'] = 'es';
         $data['modalStatus'] = SystemInfo('modal_backoffice_status');
         $data['rotas'] = MinhasRotas();
         $data['score'] = UserInfo('score');
