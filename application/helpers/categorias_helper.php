@@ -68,7 +68,7 @@ function TiposCadastro(){
     $_this =& get_instance();
 
     $tipo = array(
-        '1'=>$_this->lang->line('helper_sou_brasileiro'),
+        '1'=>'Soy peruano',
         '2'=>$_this->lang->line('helper_sou_estrangeiro'),
     );
 

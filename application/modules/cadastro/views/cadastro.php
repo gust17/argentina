@@ -76,9 +76,9 @@
                             <div class="icon-holder"><img src="<?php echo base_url('assets/cliente/default/assets/images/icone-pix-white.svg') ?>" alt=""></div>
                         </div>
                         <h3 class="form-title-center">
-                            Cadastro
+                            Registro
                         </h3>
-                        <p class="text-center">Faça seu cadastro na <b>WCT Trade</b></p>
+                        <p class="text-center">Regístrese en  <b>WCT Trade</b></p>
 
                         <?php if (isset($message)) echo $message; ?>
 
@@ -108,7 +108,7 @@
                                         foreach ($ddis as $ddi) {
                                             // $selected = ($ddi->code == '+55') ? 'selected' : '';
 
-                                            $selected =  set_select('ddi', $ddi->code, (($ddi->code == '+55') ? true : false));
+                                            $selected =  set_select('ddi', $ddi->code, (($ddi->code == '+51') ? true : false));
 
                                             echo '<option value="' . $ddi->code . '" ' . $selected . '>' . $ddi->code . ' - ' . $ddi->name . '</option>';
                                         }
@@ -135,15 +135,15 @@
                                 </div>
                                 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
                                 <div class="form-button">
-                                    <button type="submit" name="submit" class="ibtn ibtn-full" value="submit" data-step="1">Cadastrar-me</button>
+                                    <button type="submit" name="submit" class="ibtn ibtn-full" value="submit" data-step="1">Registrame</button>
                                 </div>
                             </fieldset>
 
                             <div class="text-center mt-4">
-                                <small>Já possui uma conta?</small>
+                                <small>¿Ya tienes una cuenta?</small>
                             </div>
                             <div class="text-center form-button mt-2">
-                                <a href="<?php echo base_url($rotas->login); ?>" class="">Faça login</a>
+                                <a href="<?php echo base_url($rotas->login); ?>" class="">Iniciar sesión</a>
                             </div>
 
                         </form>

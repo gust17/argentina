@@ -90,7 +90,7 @@ $(document).ready(function(){
         if(tipo_cadastro == 1){
             $('[name="documento"]').val('');
             $('[name="documento"]').mask('999.999.999-99');
-            $('[name="celular"]').mask('(99) 9.9999-9999');
+            $('[name="celular"]').mask('999 999 999');
         }else{
             $('[name="documento"]').val('');
             $('[name="documento"]').unmask();
@@ -98,8 +98,8 @@ $(document).ready(function(){
         }
     });
 
-    $('[name="celular"]').mask('(99) 9.9999-9999');
-    $('[name="documento"]').mask('999.999.999-99');
+    $('[name="celular"]').mask('999 999 999');
+    $('[name="documento"]').mask('99 99999999 9');
     $('[name="data_nascimento"]').mask('99/99/9999');
     $('[name="login"]').keyup(function() {
         $(this).val(this.value.replace(/[^a-zA-Z0-9]+/g, ''));
