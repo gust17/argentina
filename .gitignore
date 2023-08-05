@@ -1,5 +1,6 @@
 _src/*
 vendor/*
+uploads/*
 node_modules/*
 banco_de_dados.sql
 .DS_Store
