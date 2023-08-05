@@ -250,7 +250,7 @@ $userName = UserInfo('nome');
 					<li class="dropdown pc-h-item">
 						<a class="pc-head-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
 							<img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt="">
-							<!-- <img src="<?php echo base_url('assets/pages/img/flags/spanish.png') . '.png'); ?>" alt=""> -->
+							<!-- <img src="<?php echo base_url('assets/pages/img/flags/spanish.png'); ?>" alt=""> -->
 						</a>
 						<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
 							<a href="<?php echo base_url('lang/switch'); ?>?lang=spanish" class="dropdown-item" onclick="gtag('event','link_language_change_br', { 'event_category':'click', 'event_label':'<?php echo $userName; ?>' })">
