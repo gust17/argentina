@@ -265,6 +265,7 @@ $userName = UserInfo('nome');
 						<?php
 						if (UserInfo('is_admin') == 1) {
 						?>
+
 							<form action="<?php echo base_url($rotas->admin_login); ?>" method="post" target="_blank">
 								<button class="btn btn-sm btn-outline-light text-uppercase" type="submit" name="submitAdmin" value="Logar no admin">
 									<small>PAINEL</small>
