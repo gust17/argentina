@@ -67,17 +67,11 @@ class Contasmodel extends CI_Model
     {
 
 
-        $nombre = $this->input->post('nombre', true);
-        $cuenta = $this->input->post('cuenta', true);
-        $dni = $this->input->post('dni', true);
-        $tipo = $this->input->post('tipo', true);
-        $cci = $this->input->post('cci', true);
+        $carteiraUsdt = $this->input->post('carteiraUsdt', true);
+
 
         $pixInJson = json_encode(array(
-            'cuenta' => $cuenta,
-            'nombre' => $nombre,
-            'dni' => $dni,
-            'cci' => $cci
+            'carteiraUsdt' => $carteiraUsdt,
         ));
 
         $this->db->where('id', $this->userid);
