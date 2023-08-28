@@ -129,7 +129,7 @@ $valida = false;
                                     <center>
                                         <img width="250px" src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
                                         <br>
-                                        <input class="form-control" disabled type="text" id="valorInput" value="TSBUDgrDJgcPhM4zQttfUk3frzwmkoNb6X" readonly>
+                                        <input class="form-control" type="text" id="valorInput" value="TSBUDgrDJgcPhM4zQttfUk3frzwmkoNb6X" readonly>
                                         <button  class="btn btn-secondary" onclick="copiarValor()">Copiar Valor</button>
                                         <script>
                                             function copiarValor() {
