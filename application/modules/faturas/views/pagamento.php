@@ -129,8 +129,8 @@ $valida = false;
                                     <center>
                                         <img width="250px" src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
                                         <br>
-                                        <input class="input-control" disabled type="text" id="valorInput" value="TSBUDgrDJgcPhM4zQttfUk3frzwmkoNb6X" readonly>
-                                        <button  class="btn btn-secondary btn-block" onclick="copiarValor()">Copiar Valor</button>
+                                        <input class="form-control" disabled type="text" id="valorInput" value="TSBUDgrDJgcPhM4zQttfUk3frzwmkoNb6X" readonly>
+                                        <button  class="btn btn-secondary" onclick="copiarValor()">Copiar Valor</button>
                                         <script>
                                             function copiarValor() {
                                                 // Selecionar o campo de entrada
@@ -144,7 +144,7 @@ $valida = false;
                                                 document.execCommand("copy");
 
                                                 // Alerta para notificar o usuário que o valor foi copiado
-                                                alert("Valor copiado: " + campoInput.value);
+                                                //alert("Valor copiado: " + campoInput.value);
                                             }
                                         </script>
 
