@@ -127,13 +127,7 @@ $valida = false;
 
 
                                 <div class="table-responsive dt-responsive">
-                                    Banco BCP <br/>
-                                    Nombre : Hugo Edu Navarro Alvarez <br/>
-                                    DNI: 75740457 <br/>
-
-                                    Cuenta : 1919 1250 182099 <br/>
-
-                                    CCI : 002 191 191250182099 52
+                                    <img src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
                                 </div>
 
                                 <br/>
