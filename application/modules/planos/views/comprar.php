@@ -66,12 +66,13 @@
                                         <form action="" method="post">
                                             <button type="submit" name="submit" value="Gerar Fatura" load-button="on"
                                                     load-text="<?php echo $this->lang->line('plan_gerarando_fatura_button'); ?>"
-                                                    class="btn btn-sm btn-secondary"><small class="fas fa-hryvnia"></small>
+                                                    class="btn btn-sm btn-secondary"><small
+                                                        class="fas fa-hryvnia"></small>
                                                 <?php echo $this->lang->line('plan_gerar_fatura_button'); ?>
                                             </button>
-                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>" />
+                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>"/>
                                             <input type="hidden" name="<?php echo $csrfName; ?>"
-                                                   value="<?php echo $csrfHash; ?>" />
+                                                   value="<?php echo $csrfHash; ?>"/>
                                         </form>
 
                                     </div>
@@ -147,12 +148,13 @@
                                         <form action="" method="post">
                                             <button type="submit" name="submit" value="Gerar Fatura" load-button="on"
                                                     load-text="<?php echo $this->lang->line('plan_gerarando_fatura_button'); ?>"
-                                                    class="btn btn-sm btn-secondary"><small class="fas fa-hryvnia"></small>
+                                                    class="btn btn-sm btn-secondary"><small
+                                                        class="fas fa-hryvnia"></small>
                                                 <?php echo $this->lang->line('plan_gerar_fatura_button'); ?>
                                             </button>
-                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>" />
+                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>"/>
                                             <input type="hidden" name="<?php echo $csrfName; ?>"
-                                                   value="<?php echo $csrfHash; ?>" />
+                                                   value="<?php echo $csrfHash; ?>"/>
                                         </form>
 
                                     </div>
@@ -164,7 +166,6 @@
                 }
                 ?>
             </div>
-
 
 
         </div>
@@ -205,7 +206,7 @@
                                             <?php echo $this->lang->line('plan_retorno'); ?>
                                         </small>
                                         <h4 class="text-secondary">$
-                                            <?php $valor = ($plano->metade == 3) ? number_format($plano->valor / 3, 2, ',', '.') : number_format($plano->valor, 2, ',', '.');
+                                            <?php $valor = ($plano->metade == 3) ? number_format($plano->valor * 0.3, 2, ',', '.') : number_format($plano->valor, 2, ',', '.');
                                             echo $valor;
                                             ?>
                                         </h4>
@@ -231,12 +232,13 @@
                                         <form action="" method="post">
                                             <button type="submit" name="submit" value="Gerar Fatura" load-button="on"
                                                     load-text="<?php echo $this->lang->line('plan_gerarando_fatura_button'); ?>"
-                                                    class="btn btn-sm btn-secondary"><small class="fas fa-hryvnia"></small>
+                                                    class="btn btn-sm btn-secondary"><small
+                                                        class="fas fa-hryvnia"></small>
                                                 <?php echo $this->lang->line('plan_gerar_fatura_button'); ?>
                                             </button>
-                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>" />
+                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>"/>
                                             <input type="hidden" name="<?php echo $csrfName; ?>"
-                                                   value="<?php echo $csrfHash; ?>" />
+                                                   value="<?php echo $csrfHash; ?>"/>
                                         </form>
 
                                     </div>
@@ -248,7 +250,6 @@
                 }
                 ?>
             </div>
-
 
 
         </div>
@@ -315,12 +316,13 @@
                                         <form action="" method="post">
                                             <button type="submit" name="submit" value="Gerar Fatura" load-button="on"
                                                     load-text="<?php echo $this->lang->line('plan_gerarando_fatura_button'); ?>"
-                                                    class="btn btn-sm btn-secondary"><small class="fas fa-hryvnia"></small>
+                                                    class="btn btn-sm btn-secondary"><small
+                                                        class="fas fa-hryvnia"></small>
                                                 <?php echo $this->lang->line('plan_gerar_fatura_button'); ?>
                                             </button>
-                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>" />
+                                            <input type="hidden" name="id_plano" value="<?php echo $plano->id; ?>"/>
                                             <input type="hidden" name="<?php echo $csrfName; ?>"
-                                                   value="<?php echo $csrfHash; ?>" />
+                                                   value="<?php echo $csrfHash; ?>"/>
                                         </form>
 
                                     </div>
@@ -332,7 +334,6 @@
                 }
                 ?>
             </div>
-
 
 
         </div>
