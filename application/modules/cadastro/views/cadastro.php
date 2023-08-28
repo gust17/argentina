@@ -171,7 +171,7 @@
     <script src="<?php echo base_url(); ?>assets/plugins/maskedinput/jquery.maskedinput.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/plugins/bootstrap-notify/bootstrap-notify.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/pages/js/geral.js"></script>
-    <script src="<?php echo base_url(); ?>assets/pages/js/cadastro.js"></script>
+    <script src="<?php echo base_url(); ?>assets/pages/js/cadastro2.js"></script>
     <script type="module">
         import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
         const el = document.createElement('pwa-update');
