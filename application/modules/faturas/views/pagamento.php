@@ -127,7 +127,7 @@ $valida = false;
 
                                 <div class="table-responsive dt-responsive">
                                     <center>
-                                        <img width="70%" src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
+                                        <img width="250px" src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
                                     </center>
                                 </div>
 
