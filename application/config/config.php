@@ -37,7 +37,7 @@ $config['master_key'] = 'abc123';
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://cuenta.wctbussines.com';
+$config['base_url'] = 'http://cuenta.wcttrade.pro';
 
 /*
 |--------------------------------------------------------------------------
