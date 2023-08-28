@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-3">
             <center>
-                <h2>Rendimentos de 100%</h2>
+                <h2>Ingresos de 100%</h2>
             </center>
             <div class="container">
 
@@ -86,7 +86,7 @@
         </div>
         <div class="col-md-3">
             <center>
-                <h2>Rendimentos de 50%</h2>
+                <h2>Ingresos de 50%</h2>
             </center>
             <div class="container">
 
@@ -170,7 +170,7 @@
         </div>
         <div class="col-md-3">
             <center>
-                <h2>Rendimentos de 30%</h2>
+                <h2>Ingresos de 30%</h2>
             </center>
             <div class="container">
 
@@ -254,7 +254,7 @@
         </div>
         <div class="col-md-3">
             <center>
-                <h2>Rendimentos de 10%</h2>
+                <h2>Ingresos de 10%</h2>
             </center>
             <div class="container">
 
