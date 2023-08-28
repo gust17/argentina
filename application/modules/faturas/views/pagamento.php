@@ -68,7 +68,7 @@ $valida = false;
 
                     <a class="btn btn-dark m-t-5" data-toggle="collapse" href="#bpc" role="button" aria-expanded="false"
                        aria-controls="BCP">
-                        Banco BCP (Peru)
+                        USDT
                     </a>
                     <?php
                     if ($valida){
