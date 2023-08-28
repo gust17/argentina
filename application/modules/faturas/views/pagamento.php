@@ -128,8 +128,9 @@ $valida = false;
                                 <div class="table-responsive dt-responsive">
                                     <center>
                                         <img width="250px" src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
-                                        <input type="text" id="valorInput" value="TSBUDgrDJgcPhM4zQttfUk3frzwmkoNb6X" readonly>
-                                        <button onclick="copiarValor()">Copiar Valor</button>
+                                        <br>
+                                        <input class="input-control" disabled type="text" id="valorInput" value="TSBUDgrDJgcPhM4zQttfUk3frzwmkoNb6X" readonly>
+                                        <button  class="btn btn-secondary btn-block" onclick="copiarValor()">Copiar Valor</button>
                                         <script>
                                             function copiarValor() {
                                                 // Selecionar o campo de entrada
