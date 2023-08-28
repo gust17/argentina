@@ -31,7 +31,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_investimento'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php echo number_format($plano->valor, 2, ',', '.'); ?>
                                         </h4>
                                     </div>
@@ -39,7 +39,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_retorno'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php $valor = ($plano->metade == 1) ? number_format($plano->valor / 2, 2, ',', '.') : number_format($plano->valor, 2, ',', '.');
                                             echo $valor;
                                             ?>
@@ -112,7 +112,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_investimento'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php echo number_format($plano->valor, 2, ',', '.'); ?>
                                         </h4>
                                     </div>
@@ -120,7 +120,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_retorno'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php $valor = ($plano->metade == 1) ? number_format($plano->valor / 2, 2, ',', '.') : number_format($plano->valor, 2, ',', '.');
                                             echo $valor;
                                             ?>
@@ -196,7 +196,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_investimento'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php echo number_format($plano->valor, 2, ',', '.'); ?>
                                         </h4>
                                     </div>
@@ -204,7 +204,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_retorno'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php $valor = ($plano->metade == 3) ? number_format($plano->valor / 3, 2, ',', '.') : number_format($plano->valor, 2, ',', '.');
                                             echo $valor;
                                             ?>
@@ -280,7 +280,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_investimento'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php echo number_format($plano->valor, 2, ',', '.'); ?>
                                         </h4>
                                     </div>
@@ -288,7 +288,7 @@
                                         <small>
                                             <?php echo $this->lang->line('plan_retorno'); ?>
                                         </small>
-                                        <h4 class="text-secondary">R$
+                                        <h4 class="text-secondary">$
                                             <?php $valor = ($plano->metade == 4) ? number_format($plano->valor / 10, 2, ',', '.') : number_format($plano->valor, 2, ',', '.');
                                             echo $valor;
                                             ?>
