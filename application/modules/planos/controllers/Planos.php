@@ -11,7 +11,7 @@ class Planos extends MY_Controller {
         $this->load->model('planosmodel', 'PlanosModel');
     }
 
-	public function comprar(){
+    public function comprar(){
 
         CheckInitializeRoutes(__FUNCTION__, __CLASS__);
 
@@ -32,6 +32,9 @@ class Planos extends MY_Controller {
 
         $data['planos1'] = $this->PlanosModel->TodosPlanos(1);
         $data['planos2'] = $this->PlanosModel->TodosPlanos(2);
+        $data['metade'] = $this->PlanosModel->TodosPlanosMetade(1);
+        $data['trinta'] = $this->PlanosModel->TodosPlanosTrinta(1);
+        $data['dez'] = $this->PlanosModel->TodosPlanosDez(1);
         $data['planos3'] = $this->PlanosModel->TodosPlanos(3);
         $data['planos4'] = $this->PlanosModel->TodosPlanos(4);
 
@@ -39,7 +42,7 @@ class Planos extends MY_Controller {
         $data['csrfHash'] = $this->security->get_csrf_hash();
         $data['score'] = UserInfo('score');
 
-		$this->template->load('cliente/template', 'comprar', $data);
+        $this->template->load('cliente/template', 'comprar', $data);
     }
 
     public function ativos(){
@@ -53,7 +56,7 @@ class Planos extends MY_Controller {
         $data['cancelamento_contrato'] = SystemInfo('cancelamento_contrato');
         $data['paga_raiz_rendimento'] = SystemInfo('pagamento_raiz');
 
-		$this->template->load('cliente/template', 'ativos', $data);
+        $this->template->load('cliente/template', 'ativos', $data);
     }
 
     public function expirados(){
@@ -81,6 +84,6 @@ class Planos extends MY_Controller {
         $data['planos'] = $this->PlanosModel->ListarPlanos(2);
         $data['paga_raiz_rendimento'] = SystemInfo('pagamento_raiz');
 
-		$this->template->load('cliente/template', 'expirados', $data);
-	}
+        $this->template->load('cliente/template', 'expirados', $data);
+    }
 }
