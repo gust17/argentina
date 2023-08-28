@@ -108,14 +108,14 @@
                                         foreach ($ddis as $ddi) {
                                             // $selected = ($ddi->code == '+55') ? 'selected' : '';
 
-                                            $selected =  set_select('ddi', $ddi->code, (($ddi->code == '+51') ? true : false));
+                                            $selected =  set_select('ddi', $ddi->code, (($ddi->code == '+54') ? true : false));
 
                                             echo '<option value="' . $ddi->code . '" ' . $selected . '>' . $ddi->code . ' - ' . $ddi->name . '</option>';
                                         }
                                         ?>
                                     </select>
 
-                                    <input type="text" class="form-control" name="celular" placeholder="<?php echo $this->lang->line('c_f_celular'); ?>" value="<?php echo set_value('celular', ''); ?>" required>
+                                    <input type="text" class="form-control" name="celular" placeholder="Nr Telf" value="<?php echo set_value('celular', ''); ?>" required>
                                     <input type="text" class="form-control" name="data_nascimento" placeholder="<?php echo $this->lang->line('c_f_data_nascimento'); ?>" value="<?php echo set_value('data_nascimento', ''); ?>" required>
 
                                     <input type="text" class="form-control" name="documento" placeholder="<?php echo $this->lang->line('c_f_documento'); ?>" value="<?php echo set_value('documento', ''); ?>" autocomplete="off" required>
@@ -126,11 +126,11 @@
                                         <option value="3" <?php echo set_select('sexo', '3'); ?>><?php echo $this->lang->line('c_f_s_nao_informar'); ?></option>
                                     </select>
 
-                                    <input type="text" class="form-control" name="login" placeholder="<?php echo $this->lang->line('c_f_login'); ?>" value="<?php echo set_value('login', ''); ?>" required>
+                                    <input type="text" class="form-control" name="login" placeholder="Usuario" value="<?php echo set_value('login', ''); ?>" required>
 
-                                    <input type="password" class="form-control" name="senha" placeholder="<?php echo $this->lang->line('c_f_senha'); ?>" value="<?php echo set_value('senha', ''); ?>" required>
+                                    <input type="password" class="form-control" name="senha" placeholder="Senha" value="<?php echo set_value('senha', ''); ?>" required>
 
-                                    <input type="password" class="form-control" name="senha_confirmar" placeholder="<?php echo $this->lang->line('c_f_senha_confirmar'); ?>" value="<?php echo set_value('senha_confirmar', ''); ?>" required>
+                                    <input type="password" class="form-control" name="senha_confirmar" placeholder="Confirmar Senha" value="<?php echo set_value('senha_confirmar', ''); ?>" required>
 
                                 </div>
                                 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />

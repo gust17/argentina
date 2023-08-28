@@ -98,8 +98,8 @@ $(document).ready(function(){
         }
     });
 
-    $('[name="celular"]').mask('999 999 999');
-    $('[name="documento"]').mask('99 99999999 9');
+    $('[name="celular"]').mask('999 999 9999');
+    $('[name="documento"]').mask('99999999');
     $('[name="data_nascimento"]').mask('99/99/9999');
     $('[name="login"]').keyup(function() {
         $(this).val(this.value.replace(/[^a-zA-Z0-9]+/g, ''));
