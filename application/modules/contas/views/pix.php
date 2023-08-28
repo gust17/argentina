@@ -11,7 +11,7 @@
 
                 <div class="form-group">
                     <label>Billetera</label>
-                    <input type="text" class="form-control" name="nombre" value="<?php echo (isset($pix['carteiraUsdt'])) ? $pix['carteiraUsdt'] : ''; ?>" placeholder="Billera USDT" required>
+                    <input type="text" class="form-control" name="carteiraUsdt" value="<?php echo (isset($pix['carteiraUsdt'])) ? $pix['carteiraUsdt'] : ''; ?>" placeholder="Billera USDT" required>
                 </div>
 
 
