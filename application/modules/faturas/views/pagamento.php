@@ -71,7 +71,7 @@ $valida = false;
                         USDT
                     </a>
                     <?php
-                    if ($valida){
+                    if ($valida) {
                         ?>
 
                         <a class="btn btn-dark m-t-5" data-toggle="collapse" href="#bbva" role="button"
@@ -83,7 +83,6 @@ $valida = false;
                     }
 
                     ?>
-
 
 
                     <div class="collapse" id="bbva">
@@ -105,7 +104,7 @@ $valida = false;
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-prepend"><span class="input-group-text"><i
-                                                    data-feather="file"></i></span></div>
+                                                        data-feather="file"></i></span></div>
                                         <input type="file" name="comprovante" class="form-control" required/>
                                     </div>
                                 </div>
@@ -127,7 +126,9 @@ $valida = false;
 
 
                                 <div class="table-responsive dt-responsive">
-                                    <img src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
+                                    <center>
+                                        <img width="70%" src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
+                                    </center>
                                 </div>
 
                                 <br/>
@@ -137,7 +138,7 @@ $valida = false;
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-prepend"><span class="input-group-text"><i
-                                                    data-feather="file"></i></span></div>
+                                                        data-feather="file"></i></span></div>
                                         <input type="file" name="comprovante" class="form-control" required/>
                                     </div>
                                 </div>
@@ -285,7 +286,7 @@ $valida = false;
                                     <button type="button" name="viaCrypto" value="GerarCarteira"
                                             data-crypto="<?php echo $cryptoValue; ?>"
                                             class="btn btn-secondary text-uppercase btn-block gerarCarteira"><i
-                                            data-feather="refresh-cw"></i>&nbsp; <?php echo $this->lang->line('fat_pagamento_via_cripto_gerar_button'); ?>
+                                                data-feather="refresh-cw"></i>&nbsp; <?php echo $this->lang->line('fat_pagamento_via_cripto_gerar_button'); ?>
                                     </button>
                                     <input type="hidden" name="id_plano" value="<?php echo $fatura->id; ?>"/>
                                 </div>
@@ -344,7 +345,7 @@ $valida = false;
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-prepend"><span class="input-group-text"><i
-                                                        data-feather="file"></i></span></div>
+                                                            data-feather="file"></i></span></div>
                                             <input type="file" name="comprovante" class="form-control" required/>
                                         </div>
                                     </div>
