@@ -17,7 +17,6 @@ class Planosmodel extends CI_Model {
 
         $this->db->order_by('valor', 'ASC');
         $this->db->where('exibir', 1);
-        $this->db->where('metade', 0);
         $this->db->where('level', $level);
         $query = $this->db->get('planos');
 
@@ -28,55 +27,6 @@ class Planosmodel extends CI_Model {
 
         return false;
     }
-
-    public function TodosPlanosMetade($level = 1){
-
-        $this->db->order_by('valor', 'ASC');
-        $this->db->where('exibir', 1);
-        $this->db->where('metade', 1);
-        $this->db->where('level', $level);
-        $query = $this->db->get('planos');
-
-        if($query->num_rows() > 0){
-
-            return $query->result();
-        }
-
-        return false;
-    }
-
-
-    public function TodosPlanosTrinta($level = 1){
-
-        $this->db->order_by('valor', 'ASC');
-        $this->db->where('exibir', 1);
-        $this->db->where('metade', 3);
-        $this->db->where('level', $level);
-        $query = $this->db->get('planos');
-
-        if($query->num_rows() > 0){
-
-            return $query->result();
-        }
-
-        return false;
-    }
-    public function TodosPlanosDez($level = 1){
-
-        $this->db->order_by('valor', 'ASC');
-        $this->db->where('exibir', 1);
-        $this->db->where('metade', 4);
-        $this->db->where('level', $level);
-        $query = $this->db->get('planos');
-
-        if($query->num_rows() > 0){
-
-            return $query->result();
-        }
-
-        return false;
-    }
-
 
     public function quantidadePlanosAtivos(){
 
