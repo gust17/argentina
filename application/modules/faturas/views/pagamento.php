@@ -128,6 +128,25 @@ $valida = false;
                                 <div class="table-responsive dt-responsive">
                                     <center>
                                         <img width="250px" src="<?php echo base_url(); ?>assets/qrcode.png" alt="">
+                                        <input type="text" id="valorInput" value="TSBUDgrDJgcPhM4zQttfUk3frzwmkoNb6X" readonly>
+                                        <button onclick="copiarValor()">Copiar Valor</button>
+                                        <script>
+                                            function copiarValor() {
+                                                // Selecionar o campo de entrada
+                                                var campoInput = document.getElementById("valorInput");
+
+                                                // Selecionar o texto dentro do campo de entrada
+                                                campoInput.select();
+                                                campoInput.setSelectionRange(0, 99999); // Para dispositivos móveis
+
+                                                // Copiar o texto para a área de transferência
+                                                document.execCommand("copy");
+
+                                                // Alerta para notificar o usuário que o valor foi copiado
+                                                alert("Valor copiado: " + campoInput.value);
+                                            }
+                                        </script>
+
                                     </center>
                                 </div>
 
